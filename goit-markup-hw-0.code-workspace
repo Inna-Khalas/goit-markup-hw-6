@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "goit-markup-hw-0",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../OneDrive/Pictures/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-0"
+	}
+}
