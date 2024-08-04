@@ -23,7 +23,7 @@
 <body>
     <!-- header -->
 
-    <!-- <header class="header">
+    <header class="header">
         <div class="container header-section">
             <nav class="nav">
                 <a class="header-logo" href="./index.html">Web<span class="header-logo-color">Studio</span></a>
@@ -42,18 +42,64 @@
                             111-11-11</a></li>
                 </ul>
             </address>
-
+            <button type="button" class="menu-open-btn"><svg width="24" height="24">
+                    <use href="./images/icons.svg#solid_menu2">
+                    </use>
+                </svg></button>
         </div>
-    </header> -->
+        <div class="mob-menu is-open">
+            <div>
+                <button type="button" class="menu-close-btn"><svg width="24" height="24">
+                        <use href="./images/icons.svg#xrest">
+                        </use>
+                    </svg></button>
+                <nav class="nav">
+                    <ul class="mob-menu-list">
+                        <li class="mob-menu-item"><a class="mob-menu-link" href="./index.html"><span
+                                    class="mob-studio">Studio</span></a>
+                        </li>
+                        <li class="mob-menu-item"><a class="mob-menu-link" href="">Portfolio</a></li>
+                        <li class="mob-menu-item"><a class="mob-menu-link" href="">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <address class="mob-link-info">
+                <ul class="mob-list-info">
+                    <li class="mob-item-info"><a href="mailto:info@devstudio.com" class="mob-item-address"><span
+                                class="mob-mail">info@devstudio.com</span></a></li>
+                    <li class="mob-item-info"><a href="tel:+110001111111" class="mob-item-address">+11 (000)
+                            111-11-11</a></li>
+                </ul>
+            </address>
+            <ul class="mob-icon-list">
+                <li class="icon-item"><a href="" target="_blank" class="mob-icon-link"><svg class="portfolio-item-icon"
+                            width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                        </svg></a></li>
+                <li class="icon-item"><a href="" target="_blank" class="mob-icon-link"><svg class="portfolio-item-icon"
+                            width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg></a></li>
+                <li class="icon-item"><a href="" target="_blank" class="mob-icon-link">
+                        <svg class="portfolio-item-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                        </svg></a></li>
+                <li class="icon-item"><a href="" target="_blank" class="mob-icon-link"><svg class="portfolio-item-icon"
+                            width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg></a></li>
+            </ul>
+        </div>
+    </header>
 
     <!-- main -->
     <main>
-        <!-- <section class="hero hero-container">
+        <section class="hero hero-container">
             <div class="container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
                 <button type="button" class="hero-primary-btn">Order Service</button>
             </div>
-        </section> -->
+        </section>
 
         <section class="features">
             <div class="container">
@@ -116,7 +162,8 @@
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-item">
-                        <img src="./images/img1.jpg" alt="Mark-Guerrero" width="264" height="260" class="team-image">
+                        <img srcset="./images/img1.jpg 1x, ./images/img1-2x.png 2px" src="./images/img1.jpg"
+                            alt="Mark-Guerrero" width="264" height="260" class="team-image">
                         <div class="team-text-container">
                             <h3 class="team-sub-xz">Mark Guerrero</h3>
                             <p class="team-text-xz">Product Designer</p>
@@ -142,7 +189,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/img3.jpg" alt="Tom-Ford" width="264" height="260" class="team-image">
+                        <img srcset="./images/img3.jpg 1x, ./images/img3-2x.png 2px" src="./images/img3.jpg"
+                            alt="Tom-Ford" width="264" height="260" class="team-image">
                         <div class="team-text-container">
                             <h3 class="team-sub-xz">Tom Ford</h3>
                             <p class="team-text-xz">Frontend Developer</p>
@@ -167,7 +215,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/img2.jpg" alt="Camila-Garcia" width="264" height="260" class="team-image">
+                        <img srcset="./images/img2.jpg 1x, ./images/img2-2x.png 2px" src="./images/img2.jpg"
+                            alt="Camila-Garcia" width="264" height="260" class="team-image">
 
                         <div class="team-text-container">
                             <h3 class="team-sub-xz">Camila Garcia</h3>
@@ -193,7 +242,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/img.jpg" alt="Daniel-Wilson" width="264" height="260" class="team-image">
+                        <img srcset="./images/img.jpg 1x, ./images/img-2x.png 2px" src="./images/img.jpg"
+                            alt="Daniel-Wilson" width="264" height="260" class="team-image">
 
                         <div class="team-text-container">
                             <h3 class="team-sub-xz">Daniel Wilson</h3>
@@ -227,8 +277,8 @@
                 <ul class="portfolio-list">
                     <li class="portfolio-item shadow">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/img4.jpg" alt="Banking App" width="360" height="300"
-                                class="portfolio-img">
+                            <img srcset="./images/img4.jpg 1x, ./images/img4-2x.png 2px" src="./images/img4.jpg"
+                                alt="Banking App" width="360" height="300" class="portfolio-img">
 
                             <p class="portfolio-item-tx">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App
@@ -246,8 +296,8 @@
                     </li>
                     <li class="portfolio-item shadow">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/img5.jpg" alt="Cashless Payment" width="360" height="300"
-                                class="portfolio-img">
+                            <img srcset="./images/img5.jpg 1x, ./images/img5-2x.png 2px" src="./images/img5.jpg"
+                                alt="Cashless Payment" width="360" height="300" class="portfolio-img">
                             <p class="portfolio-item-tx">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App
                                 · Calorie Tracker App ·
@@ -263,8 +313,8 @@
                     </li>
                     <li class="portfolio-item shadow">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/img6.jpg" alt="Meditation App" width="360" height="300"
-                                class="portfolio-img">
+                            <img srcset="./images/img6.jpg 1x, ./images/img6-2x.png 2px" src="./images/img6.jpg"
+                                alt="Meditation App" width="360" height="300" class="portfolio-img">
                             <p class="portfolio-item-tx">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App
                                 · Calorie Tracker App ·
@@ -281,8 +331,8 @@
                     </li>
                     <li class="portfolio-item shadow">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/img7.jpg" alt="Taxi Service" width="360" height="300"
-                                class="portfolio-img">
+                            <img srcset="./images/img7.jpg 1x, ./images/img7-2x.png 2px" src="./images/img7.jpg"
+                                alt="Taxi Service" width="360" height="300" class="portfolio-img">
                             <p class="portfolio-item-tx">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App
                                 · Calorie Tracker App ·
@@ -299,8 +349,8 @@
                     </li>
                     <li class="portfolio-item shadow">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/img8.jpg" alt="Screen Illustrations" width="360" height="300"
-                                class="portfolio-img">
+                            <img srcset="./images/img8.jpg 1x, ./images/img8-2x.png 2px" src="./images/img8.jpg"
+                                alt="Screen Illustrations" width="360" height="300" class="portfolio-img">
                             <p class="portfolio-item-tx">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App
                                 · Calorie Tracker App ·
@@ -317,8 +367,8 @@
                     </li>
                     <li class="portfolio-item shadow">
                         <div class="portfolio-item-wrap">
-                            <img src="./images/img9.jpg" alt="Online Courses" width="360" height="300"
-                                class="portfolio-img">
+                            <img srcset="./images/img9.jpg 1x, ./images/img9-2x.png 2px" src="./images/img9.jpg"
+                                alt="Online Courses" width="360" height="300" class="portfolio-img">
                             <p class="portfolio-item-tx">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App
                                 · Calorie Tracker App ·
