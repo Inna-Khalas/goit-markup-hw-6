@@ -826,6 +826,10 @@ img {
     padding: 72px 16px 24px 16px;
 }
 
+.backdrop:not(.is-open) .modal {
+    transform: translate(-50%, -50%) scale(1.5);
+}
+
 .modal-button {
     display: flex;
     align-items: center;
@@ -1015,11 +1019,11 @@ img {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16667;
-    /* letter-spacing: 0.04em; */
+    letter-spacing: 0.04em;
     color: #8e8f99;
     align-items: center;
-    gap: 8px;
-    line-height: 1.17;
+    /* gap: 8px; */
+    /* line-height: 1.17; */
 }
 
 .span-text {}
@@ -1033,11 +1037,12 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .check-span{
-    display: inline-flex;
+/* .check-span {
+    margin-right: 8px;
 } */
 
 .modal-check:checked+.modal-check-text span {
@@ -1306,7 +1311,7 @@ img {
     }
 
     .footer-block {
-        margin-left: 80px;
+        margin-left: 0 auto;
         align-items: baseline;
     }
 
@@ -1315,7 +1320,7 @@ img {
     }
 
     .form-footer {
-        /* margin-left: 80px; */
+        /* margin-left: auto; */
         flex-wrap: nowrap;
         gap: 24px;
         align-items: baseline;
