@@ -287,7 +287,7 @@ img {
 
 .hero {
     padding: 72px 0;
-    max-width: 320px;
+    min-width: 320px;
     background-repeat: no-repeat;
 }
 
@@ -996,7 +996,7 @@ img {
     }
 
     .hero {
-        max-width: 768px;
+        min-width: 768px;
         padding: 112px 0;
     }
 
